@@ -1,0 +1,31 @@
+body {
+  background: black;
+  color: whitesmoke;
+  font-family: monospace;
+}
+
+h1 {
+  color: coral;
+  font-weight: bolder;
+}
+
+.formula {
+  background: #333;
+  padding: 1em;
+  border-radius: 12px;
+}
+
+button {
+  background: coral;
+  border: none;
+  padding: 0.5em;
+  margin-top: 1em;
+  color: #333;
+  font-weight: bolder;
+}
+
+button:hover {
+  color: #fff;
+  cursor: pointer;
+  background: orange;
+}/*# sourceMappingURL=styles.css.map */

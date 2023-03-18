@@ -4,9 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
     <title>Biotrkr</title>
 </head>
 <body>
     <h1>Biotrkr</h1>
+    <div class="formula">
+        <h3>Formula:</h3>
+        <h5>BMR (male)</h5><p>(weight(kg) * 10) + (height(cm) * 6.25) - (age * 4.92) - 5</p>
+        <p>BMI (male) = [weight (kg) / height (cm) / height (cm)] x 10,000</p>
+     </div>
+    
+     <div class="calculator">
+         <form action="" class="form">
+           <h3>Weight(kg)</h3>
+           <input type="text" class="weight">  
+           <h3>Height(cm)</h3>
+           <input type="text" class="height">
+           <h3>Age</h3>
+           <input type="text" class="age">
+        </form>
+        
+        <button class="calculate">Calculate</button>
+     
+       <div class="resultBMR">
+         <h3>BMR = <div class="bmr-normal"></div></h3>
+       </div>
+       <div class="resultLowBMR">
+         <h3>BMR low burn = <div class="bmr-low"></div> </h3>
+       </div>
+       
+       <div class="resultBMI">
+         <h3>BMI = <div class="bmi-result"></div></h3>
+       </div>
+       
+     </div>
+
+     <script src="./main.js"></script>
 </body>
 </html>
