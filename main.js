@@ -1,9 +1,3 @@
-/*
-// VARIABLES
-let weight = document.querySelector(".weight").value
-let height = document.querySelector(".height").value
-let age = document.querySelector(".age").value
-*/
 
 //BUTTON
 let btn = document.querySelector(".calculate")
@@ -14,21 +8,6 @@ let bmrLow = document.querySelector(".bmr-low")
 // RESULT BMI
 let bmiResult = document.querySelector(".bmi-result")
 
-
-/*
-
-// create person class
-class Person{
-	constructor(weight,height,age){
-  	  this.weight =	weight;
-			this.height = height;
-			this.age = age;
-  }
-}
-
-const Ricky = new Person(90,173,30)
-
-*/
 
 // FUNCTION CALCULATE BMR
 const calculateBMR = (weight,height,age) => {
